@@ -1,0 +1,24 @@
+.plampada{
+    text-align: center;
+   
+    position: relative;
+    top: 100px;
+    
+}
+.qlampada{
+    text-align: center;
+
+    position: relative;
+    top: 100px; 
+}
+.corpoUm{
+    background-color: black;
+
+}
+.glampada{
+    position: relative;
+    bottom: 140px;
+}
+button{
+    background-color: rgb(170, 170, 170) ;
+}

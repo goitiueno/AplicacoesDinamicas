@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="/CALCULADORA/CSS/style.css">
+    <link rel="shortcut icon" href="ICO/temperature-2-32.ico" type="image/x-icon">
+</head>
+<body>
+    <a href="/CliqueAqUiMesMoEsejAFeLIzzZZ.html"><button id="btnReturn">←</button></a>
+    <div id="cdTdiv">
+        <h1 id="cdT">
+        Conversor de Temperatura 
+        </h1>
+        <form>
+            <label for="temperatura" class="tp">Temperatura:</label>
+            <input id="temperatura" placeholder="Digite a temperatura"><br>
+            <label for="origem" class="tp">Unidade de Origem</label>
+            <select name="origem" id="origem">
+                <option value="1">Fahrenheit</option>
+                <option value="2">Celcius</option>
+            </select>
+            <br>
+    
+            <label for="destino" class="tp">Unidade de Destino</label>
+            <select name="destino" id="destino">
+                <option value="1">Fahrenheit</option>
+                <option value="2">Celcius</option>
+            </select><br>
+            <label for="resultado" class="tp">Resultado:</label>
+            <input id="resultado" ><br>
+            <button id="btnCTD" onclick="converterTemperatura(event)">Converter</button><br>
+        </form>
+            <a href="index.html"><button id="btnC">Caulculadora</button></a>
+
+            <script type="text/javascript" src="JS/Grandezas.js">
+           
+
+            </script>
+    </div>
+</body>
+</html>
